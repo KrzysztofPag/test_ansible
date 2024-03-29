@@ -1,5 +1,5 @@
 ---
-- hosts: linuxservers
+- hosts: web
   become: yes
   remote_user: ansible
   vars_files:
